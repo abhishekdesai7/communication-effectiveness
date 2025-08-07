@@ -1,0 +1,383 @@
+[0m23:07:14.520476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103f0fcb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053979d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105397b10>]}
+
+
+============================== 23:07:14.523735 | 1b146f99-dbb5-491c-be36-4a9730807cba ==============================
+[0m23:07:14.523735 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:07:14.524090 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init dbt_project', 'send_anonymous_usage_stats': 'True'}
+[0m23:07:14.538973 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m23:07:14.552520 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.079020336, "process_in_blocks": "0", "process_kernel_time": 0.169716, "process_mem_max_rss": "114130944", "process_out_blocks": "0", "process_user_time": 0.880819}
+[0m23:07:14.552908 [debug] [MainThread]: Command `dbt init` succeeded at 23:07:14.552839 after 0.08 seconds
+[0m23:07:14.553135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105510d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054fec30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054d9f20>]}
+[0m23:07:14.553363 [debug] [MainThread]: Flushing usage events
+[0m23:07:15.202933 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:08:41.645737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107adf4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fcf9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fcfb10>]}
+
+
+============================== 23:08:41.648971 | 1bf91a1a-7ab2-462b-bdc6-f34ca5f6a353 ==============================
+[0m23:08:41.648971 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:08:41.649321 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt_project', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:08:41.661363 [debug] [MainThread]: Starter project path: /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m23:08:41.664831 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:08:41.665028 [info ] [MainThread]: Setting up your profile.
+[0m23:08:41.667044 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m23:08:41.669187 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.064905584, "process_in_blocks": "0", "process_kernel_time": 0.153558, "process_mem_max_rss": "106397696", "process_out_blocks": "0", "process_user_time": 0.749216}
+[0m23:08:41.669508 [debug] [MainThread]: Command `dbt init` failed at 23:08:41.669454 after 0.07 seconds
+[0m23:08:41.669690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109084d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10907e0f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e76250>]}
+[0m23:08:41.669886 [debug] [MainThread]: Flushing usage events
+[0m23:08:42.314379 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:49:06.365562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10486f4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068239d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106823b10>]}
+
+
+============================== 23:49:06.368590 | 0a1183a4-a074-432a-a967-11b6bb6072c8 ==============================
+[0m23:49:06.368590 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:49:06.368937 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:49:06.381559 [info ] [MainThread]: dbt version: 1.10.6
+[0m23:49:06.381805 [info ] [MainThread]: python version: 3.13.5
+[0m23:49:06.381951 [info ] [MainThread]: python path: /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/venv/bin/python3.13
+[0m23:49:06.382091 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit-Mach-O
+[0m23:49:06.493352 [info ] [MainThread]: Using profiles dir at /Users/abhishekdesai/.dbt
+[0m23:49:06.493680 [info ] [MainThread]: Using profiles.yml file at /Users/abhishekdesai/.dbt/profiles.yml
+[0m23:49:06.493829 [info ] [MainThread]: Using dbt_project.yml file at /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/dbt_project.yml
+[0m23:49:06.495312 [info ] [MainThread]: adapter type: duckdb
+[0m23:49:06.495494 [info ] [MainThread]: adapter version: 1.9.4
+[0m23:49:06.495651 [info ] [MainThread]: Configuration:
+[0m23:49:06.495782 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:49:06.495913 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:49:06.496039 [info ] [MainThread]: Required dependencies:
+[0m23:49:06.496203 [debug] [MainThread]: Executing "git --help"
+[0m23:49:06.511702 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:49:06.512425 [debug] [MainThread]: STDERR: "b''"
+[0m23:49:06.512618 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:49:06.512787 [info ] [MainThread]: Connection:
+[0m23:49:06.512982 [info ] [MainThread]:   database: comm_effectiveness
+[0m23:49:06.513119 [info ] [MainThread]:   schema: main
+[0m23:49:06.513240 [info ] [MainThread]:   path: data/comm_effectiveness.duckdb
+[0m23:49:06.513365 [info ] [MainThread]:   config_options: None
+[0m23:49:06.513487 [info ] [MainThread]:   extensions: None
+[0m23:49:06.513606 [info ] [MainThread]:   settings: {}
+[0m23:49:06.513774 [info ] [MainThread]:   external_root: .
+[0m23:49:06.513934 [info ] [MainThread]:   use_credential_provider: None
+[0m23:49:06.514120 [info ] [MainThread]:   attach: None
+[0m23:49:06.514252 [info ] [MainThread]:   filesystems: None
+[0m23:49:06.514375 [info ] [MainThread]:   remote: None
+[0m23:49:06.514498 [info ] [MainThread]:   plugins: None
+[0m23:49:06.514618 [info ] [MainThread]:   disable_transactions: False
+[0m23:49:06.515138 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:49:06.564354 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m23:49:06.584721 [debug] [MainThread]: Using duckdb connection "debug"
+[0m23:49:06.584950 [debug] [MainThread]: On debug: select 1 as id
+[0m23:49:06.585091 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:49:06.657833 [debug] [MainThread]: SQL status: OK in 0.073 seconds
+[0m23:49:06.658450 [debug] [MainThread]: On debug: Close
+[0m23:49:06.658646 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:49:06.658817 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:49:06.658951 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/abhishekdesai/Desktop/Condor/communication-effectiveness/dbt_project.yml> not found
+
+[0m23:49:06.660792 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.3357562, "process_in_blocks": "0", "process_kernel_time": 0.161522, "process_mem_max_rss": "131514368", "process_out_blocks": "0", "process_user_time": 0.793265}
+[0m23:49:06.661061 [debug] [MainThread]: Command `dbt debug` failed at 23:49:06.661006 after 0.34 seconds
+[0m23:49:06.661229 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:49:06.661408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f09f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106affad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a116a0>]}
+[0m23:49:06.661609 [debug] [MainThread]: Flushing usage events
+[0m23:49:07.296422 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:49:40.403238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c2f4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10911f9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10911fb10>]}
+
+
+============================== 23:49:40.407333 | edcf9c2a-37ca-4042-93e6-0b76e84a63db ==============================
+[0m23:49:40.407333 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:49:40.407704 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:49:40.422185 [info ] [MainThread]: dbt version: 1.10.6
+[0m23:49:40.422456 [info ] [MainThread]: python version: 3.13.5
+[0m23:49:40.422606 [info ] [MainThread]: python path: /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/venv/bin/python3.13
+[0m23:49:40.422816 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit-Mach-O
+[0m23:49:40.503052 [info ] [MainThread]: Using profiles dir at /Users/abhishekdesai/.dbt
+[0m23:49:40.503373 [info ] [MainThread]: Using profiles.yml file at /Users/abhishekdesai/.dbt/profiles.yml
+[0m23:49:40.503537 [info ] [MainThread]: Using dbt_project.yml file at /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/dbt_project.yml
+[0m23:49:40.504962 [info ] [MainThread]: adapter type: duckdb
+[0m23:49:40.505177 [info ] [MainThread]: adapter version: 1.9.4
+[0m23:49:40.562301 [info ] [MainThread]: Configuration:
+[0m23:49:40.562628 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:49:40.562785 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:49:40.562933 [info ] [MainThread]: Required dependencies:
+[0m23:49:40.563155 [debug] [MainThread]: Executing "git --help"
+[0m23:49:40.580819 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:49:40.581514 [debug] [MainThread]: STDERR: "b''"
+[0m23:49:40.581737 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:49:40.581942 [info ] [MainThread]: Connection:
+[0m23:49:40.582240 [info ] [MainThread]:   database: comm_effectiveness
+[0m23:49:40.582502 [info ] [MainThread]:   schema: main
+[0m23:49:40.582713 [info ] [MainThread]:   path: data/comm_effectiveness.duckdb
+[0m23:49:40.582881 [info ] [MainThread]:   config_options: None
+[0m23:49:40.583053 [info ] [MainThread]:   extensions: None
+[0m23:49:40.583199 [info ] [MainThread]:   settings: {}
+[0m23:49:40.583326 [info ] [MainThread]:   external_root: .
+[0m23:49:40.583454 [info ] [MainThread]:   use_credential_provider: None
+[0m23:49:40.583586 [info ] [MainThread]:   attach: None
+[0m23:49:40.583740 [info ] [MainThread]:   filesystems: None
+[0m23:49:40.583919 [info ] [MainThread]:   remote: None
+[0m23:49:40.584148 [info ] [MainThread]:   plugins: None
+[0m23:49:40.584304 [info ] [MainThread]:   disable_transactions: False
+[0m23:49:40.584700 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:49:40.644514 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m23:49:40.675632 [debug] [MainThread]: Using duckdb connection "debug"
+[0m23:49:40.675914 [debug] [MainThread]: On debug: select 1 as id
+[0m23:49:40.676076 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:49:40.739681 [debug] [MainThread]: SQL status: OK in 0.064 seconds
+[0m23:49:40.740381 [debug] [MainThread]: On debug: Close
+[0m23:49:40.740610 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:49:40.740792 [info ] [MainThread]: [32mAll checks passed![0m
+[0m23:49:40.742900 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.38983697, "process_in_blocks": "0", "process_kernel_time": 0.201988, "process_mem_max_rss": "133595136", "process_out_blocks": "0", "process_user_time": 0.883682}
+[0m23:49:40.743315 [debug] [MainThread]: Command `dbt debug` succeeded at 23:49:40.743238 after 0.39 seconds
+[0m23:49:40.743528 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:49:40.743774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094e23f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094df2f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10930dbf0>]}
+[0m23:49:40.744070 [debug] [MainThread]: Flushing usage events
+[0m23:49:41.291314 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:50:13.511336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071df4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f2b9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f2bb10>]}
+
+
+============================== 23:50:13.515017 | 193f2bfb-f891-4709-8c14-d6a4b7c35bbe ==============================
+[0m23:50:13.515017 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:50:13.515452 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:50:13.681735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '193f2bfb-f891-4709-8c14-d6a4b7c35bbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b3f230>]}
+[0m23:50:13.718047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '193f2bfb-f891-4709-8c14-d6a4b7c35bbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109dd3790>]}
+[0m23:50:13.719666 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:50:13.784525 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m23:50:13.785066 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:50:13.785336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '193f2bfb-f891-4709-8c14-d6a4b7c35bbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ffe150>]}
+[0m23:50:14.210879 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.example
+[0m23:50:14.213462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '193f2bfb-f891-4709-8c14-d6a4b7c35bbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c4b4d0>]}
+[0m23:50:14.234227 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:50:14.235550 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:50:14.251083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '193f2bfb-f891-4709-8c14-d6a4b7c35bbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4ebcb0>]}
+[0m23:50:14.251355 [info ] [MainThread]: Found 429 macros
+[0m23:50:14.251518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '193f2bfb-f891-4709-8c14-d6a4b7c35bbe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6d35f0>]}
+[0m23:50:14.252168 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:50:14.252432 [debug] [MainThread]: Command end result
+[0m23:50:14.262854 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:50:14.263823 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:50:14.265500 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/run_results.json
+[0m23:50:14.267101 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.8041506, "process_in_blocks": "0", "process_kernel_time": 0.197761, "process_mem_max_rss": "122388480", "process_out_blocks": "0", "process_user_time": 1.365374}
+[0m23:50:14.267338 [debug] [MainThread]: Command `dbt run` succeeded at 23:50:14.267292 after 0.80 seconds
+[0m23:50:14.267522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109d0bc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6eeba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6eed00>]}
+[0m23:50:14.267699 [debug] [MainThread]: Flushing usage events
+[0m23:50:14.969835 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:50:35.690711 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11096f4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d2b9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d2bb10>]}
+
+
+============================== 23:50:35.694144 | 9af0b490-7926-41cb-8882-61aed3f3bff6 ==============================
+[0m23:50:35.694144 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:50:35.694501 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:50:35.838750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9af0b490-7926-41cb-8882-61aed3f3bff6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11143f230>]}
+[0m23:50:35.872778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9af0b490-7926-41cb-8882-61aed3f3bff6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113bd3790>]}
+[0m23:50:35.874984 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:50:35.942929 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m23:50:35.984313 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:50:35.984578 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:50:35.984950 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.example
+[0m23:50:35.987915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9af0b490-7926-41cb-8882-61aed3f3bff6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114545050>]}
+[0m23:50:35.999647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9af0b490-7926-41cb-8882-61aed3f3bff6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1144c2d50>]}
+[0m23:50:35.999960 [info ] [MainThread]: Found 429 macros
+[0m23:50:36.000129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9af0b490-7926-41cb-8882-61aed3f3bff6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1145d83d0>]}
+[0m23:50:36.000831 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:50:36.001827 [debug] [MainThread]: Command end result
+[0m23:50:36.028432 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:50:36.029697 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:50:36.031416 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/run_results.json
+[0m23:50:36.033093 [debug] [MainThread]: Acquiring new duckdb connection 'generate_catalog'
+[0m23:50:36.033266 [info ] [MainThread]: Building catalog
+[0m23:50:36.060592 [debug] [MainThread]: Wrote artifact CatalogArtifact to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/catalog.json
+[0m23:50:36.070451 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:50:36.071297 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:50:36.071463 [info ] [MainThread]: Catalog written to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/catalog.json
+[0m23:50:36.073083 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": true, "command_wall_clock_time": 0.42433217, "process_in_blocks": "0", "process_kernel_time": 0.148928, "process_mem_max_rss": "126058496", "process_out_blocks": "0", "process_user_time": 0.984997}
+[0m23:50:36.073367 [debug] [MainThread]: Command `dbt docs generate` succeeded at 23:50:36.073315 after 0.42 seconds
+[0m23:50:36.073532 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m23:50:36.073685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114627d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b0bc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147c0710>]}
+[0m23:50:36.073851 [debug] [MainThread]: Flushing usage events
+[0m23:50:36.720887 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:50:45.121699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12156f4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122c279d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122c27b10>]}
+
+
+============================== 23:50:45.124655 | c476cf12-23f4-4d39-a90b-59380ea51200 ==============================
+[0m23:50:45.124655 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:50:45.124984 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'version_check': 'True', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt list', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:50:45.239931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c476cf12-23f4-4d39-a90b-59380ea51200', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121c3f230>]}
+[0m23:50:45.270387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c476cf12-23f4-4d39-a90b-59380ea51200', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122ad38a0>]}
+[0m23:50:45.272597 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:50:45.326636 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m23:50:45.364897 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:50:45.365160 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:50:45.365532 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.example
+[0m23:50:45.368397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c476cf12-23f4-4d39-a90b-59380ea51200', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123b45050>]}
+[0m23:50:45.393088 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:50:45.394323 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:50:45.403421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c476cf12-23f4-4d39-a90b-59380ea51200', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122c898b0>]}
+[0m23:50:45.403811 [warn ] [MainThread]: No nodes selected!
+[0m23:50:45.405322 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": true, "command_wall_clock_time": 0.32242453, "process_in_blocks": "0", "process_kernel_time": 0.129675, "process_mem_max_rss": "121143296", "process_out_blocks": "0", "process_user_time": 0.895532}
+[0m23:50:45.405552 [debug] [MainThread]: Command `dbt list` succeeded at 23:50:45.405507 after 0.32 seconds
+[0m23:50:45.405736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122c0fbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122fea270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123b0fd40>]}
+[0m23:50:45.405891 [debug] [MainThread]: Flushing usage events
+[0m23:50:45.962032 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:50:57.121033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122a274d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124e279d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124e27b10>]}
+
+
+============================== 23:50:57.124440 | 43e8ed97-4a27-427b-bafb-ea902a2926e6 ==============================
+[0m23:50:57.124440 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:50:57.124810 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'debug': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt list', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:50:57.270819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '43e8ed97-4a27-427b-bafb-ea902a2926e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12343f230>]}
+[0m23:50:57.303639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '43e8ed97-4a27-427b-bafb-ea902a2926e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124bd38a0>]}
+[0m23:50:57.305594 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:50:57.370910 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m23:50:57.412069 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:50:57.412354 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:50:57.412761 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.example
+[0m23:50:57.415832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '43e8ed97-4a27-427b-bafb-ea902a2926e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x125d45050>]}
+[0m23:50:57.444692 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:50:57.446953 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:50:57.458243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '43e8ed97-4a27-427b-bafb-ea902a2926e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124e858b0>]}
+[0m23:50:57.458807 [warn ] [MainThread]: No nodes selected!
+[0m23:50:57.461411 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": true, "command_wall_clock_time": 0.3820599, "process_in_blocks": "0", "process_kernel_time": 0.17393, "process_mem_max_rss": "120586240", "process_out_blocks": "0", "process_user_time": 0.974808}
+[0m23:50:57.461776 [debug] [MainThread]: Command `dbt list` succeeded at 23:50:57.461719 after 0.38 seconds
+[0m23:50:57.462015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124e0fbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1259ee270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x125d0fd40>]}
+[0m23:50:57.462246 [debug] [MainThread]: Flushing usage events
+[0m23:50:58.025502 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:52:04.203325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073bb4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088ab9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088abb10>]}
+
+
+============================== 23:52:04.206396 | 5c2fc88d-52b1-4896-b177-0398e5646658 ==============================
+[0m23:52:04.206396 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:52:04.206760 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt list', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:52:04.354752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5c2fc88d-52b1-4896-b177-0398e5646658', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bc3230>]}
+[0m23:52:04.386660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5c2fc88d-52b1-4896-b177-0398e5646658', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087578a0>]}
+[0m23:52:04.388213 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:52:04.444878 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m23:52:04.482141 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:52:04.482359 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:52:04.482661 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.example
+[0m23:52:04.485353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5c2fc88d-52b1-4896-b177-0398e5646658', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108dc9050>]}
+[0m23:52:04.509717 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:52:04.511026 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:52:04.521536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5c2fc88d-52b1-4896-b177-0398e5646658', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10890d8b0>]}
+[0m23:52:04.521939 [warn ] [MainThread]: No nodes selected!
+[0m23:52:04.523506 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": true, "command_wall_clock_time": 0.360205, "process_in_blocks": "0", "process_kernel_time": 0.169179, "process_mem_max_rss": "120012800", "process_out_blocks": "0", "process_user_time": 0.922382}
+[0m23:52:04.523751 [debug] [MainThread]: Command `dbt list` succeeded at 23:52:04.523703 after 0.36 seconds
+[0m23:52:04.523942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108893bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b72270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d93d40>]}
+[0m23:52:04.524116 [debug] [MainThread]: Flushing usage events
+[0m23:52:05.168953 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:53:32.945082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1037ff4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104cef9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104cefb10>]}
+
+
+============================== 23:53:32.948466 | a2c3e70f-8477-4ac3-b33d-b2a3c3de89b3 ==============================
+[0m23:53:32.948466 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:53:32.948817 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt list', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:53:33.090037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a2c3e70f-8477-4ac3-b33d-b2a3c3de89b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104007230>]}
+[0m23:53:33.119334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a2c3e70f-8477-4ac3-b33d-b2a3c3de89b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b9bac0>]}
+[0m23:53:33.120587 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m23:53:33.174198 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m23:53:33.197068 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:53:33.197357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a2c3e70f-8477-4ac3-b33d-b2a3c3de89b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105200b50>]}
+[0m23:53:33.588340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2c3e70f-8477-4ac3-b33d-b2a3c3de89b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10521dd60>]}
+[0m23:53:33.607815 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/manifest.json
+[0m23:53:33.609008 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/target/semantic_manifest.json
+[0m23:53:33.619641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2c3e70f-8477-4ac3-b33d-b2a3c3de89b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e1e430>]}
+[0m23:53:33.620009 [warn ] [MainThread]: No nodes selected!
+[0m23:53:33.621852 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": true, "command_wall_clock_time": 0.71957785, "process_in_blocks": "0", "process_kernel_time": 0.169758, "process_mem_max_rss": "121208832", "process_out_blocks": "0", "process_user_time": 1.285994}
+[0m23:53:33.622075 [debug] [MainThread]: Command `dbt list` succeeded at 23:53:33.622032 after 0.72 seconds
+[0m23:53:33.622250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10527e750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ad3c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105162d50>]}
+[0m23:53:33.622424 [debug] [MainThread]: Flushing usage events
+[0m23:53:34.271399 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:03:30.794391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072574d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117279d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111727b10>]}
+
+
+============================== 00:03:30.797505 | 065ecf68-fb06-4ed9-aad6-b3697ed57c6a ==============================
+[0m00:03:30.797505 [info ] [MainThread]: Running with dbt=1.10.6
+[0m00:03:30.797842 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/logs', 'profiles_dir': '/Users/abhishekdesai/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:03:30.810755 [info ] [MainThread]: dbt version: 1.10.6
+[0m00:03:30.810987 [info ] [MainThread]: python version: 3.13.5
+[0m00:03:30.811131 [info ] [MainThread]: python path: /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/venv/bin/python3.13
+[0m00:03:30.811272 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit-Mach-O
+[0m00:03:30.888569 [info ] [MainThread]: Using profiles dir at /Users/abhishekdesai/.dbt
+[0m00:03:30.888819 [info ] [MainThread]: Using profiles.yml file at /Users/abhishekdesai/.dbt/profiles.yml
+[0m00:03:30.888970 [info ] [MainThread]: Using dbt_project.yml file at /Users/abhishekdesai/Desktop/Condor/communication-effectiveness/dbt_project.yml
+[0m00:03:30.890180 [info ] [MainThread]: adapter type: duckdb
+[0m00:03:30.890363 [info ] [MainThread]: adapter version: 1.9.4
+[0m00:03:30.939972 [info ] [MainThread]: Configuration:
+[0m00:03:30.940232 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:03:30.940375 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m00:03:30.940508 [info ] [MainThread]: Required dependencies:
+[0m00:03:30.940702 [debug] [MainThread]: Executing "git --help"
+[0m00:03:30.952119 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m00:03:30.952680 [debug] [MainThread]: STDERR: "b''"
+[0m00:03:30.952853 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m00:03:30.953006 [info ] [MainThread]: Connection:
+[0m00:03:30.953179 [info ] [MainThread]:   database: comm_effectiveness
+[0m00:03:30.953308 [info ] [MainThread]:   schema: main
+[0m00:03:30.953429 [info ] [MainThread]:   path: data/comm_effectiveness.duckdb
+[0m00:03:30.953551 [info ] [MainThread]:   config_options: None
+[0m00:03:30.953667 [info ] [MainThread]:   extensions: None
+[0m00:03:30.953782 [info ] [MainThread]:   settings: {}
+[0m00:03:30.953900 [info ] [MainThread]:   external_root: .
+[0m00:03:30.954018 [info ] [MainThread]:   use_credential_provider: None
+[0m00:03:30.954133 [info ] [MainThread]:   attach: None
+[0m00:03:30.954248 [info ] [MainThread]:   filesystems: None
+[0m00:03:30.954363 [info ] [MainThread]:   remote: None
+[0m00:03:30.954478 [info ] [MainThread]:   plugins: None
+[0m00:03:30.954593 [info ] [MainThread]:   disable_transactions: False
+[0m00:03:30.954943 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m00:03:31.007801 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m00:03:31.031444 [debug] [MainThread]: Using duckdb connection "debug"
+[0m00:03:31.031653 [debug] [MainThread]: On debug: select 1 as id
+[0m00:03:31.031804 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:03:31.059842 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m00:03:31.060065 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m00:03:31.060277 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m00:03:31.060442 [info ] [MainThread]: [31m1 check failed:[0m
+[0m00:03:31.060574 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "/Users/abhishekdesai/Desktop/Condor/communication-effectiveness/dbt_project/data/comm_effectiveness.duckdb": No such file or directory
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m00:03:31.062134 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.30727455, "process_in_blocks": "0", "process_kernel_time": 0.174771, "process_mem_max_rss": "126107648", "process_out_blocks": "0", "process_user_time": 0.844354}
+[0m00:03:31.062380 [debug] [MainThread]: Command `dbt debug` failed at 00:03:31.062326 after 0.31 seconds
+[0m00:03:31.062548 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:03:31.062710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122e62c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122c31d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11200ecf0>]}
+[0m00:03:31.062916 [debug] [MainThread]: Flushing usage events
+[0m00:03:31.607143 [debug] [MainThread]: An error was encountered while trying to flush usage events
