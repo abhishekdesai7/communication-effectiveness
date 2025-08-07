@@ -1,9 +1,7 @@
 version: 2
 
 sources:
-  # - name: raw
-    # database: main
-    # schema: "" 
+  - name: raw
     tables:
       - name: notifications_sent
       - name: notification_events
