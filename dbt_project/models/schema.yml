@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: notifications_summary
+    description: "Aggregated summary of sent/opened/clicked notifications"
+    columns:
+      - name: flight_id
+        tests: [not_null, unique]
+
+  - name: missed_communications
+    description: "List of customers who didn't open notifications"
+
+  - name: feedback_vs_communication
+    description: "Join of feedback with missed communication"

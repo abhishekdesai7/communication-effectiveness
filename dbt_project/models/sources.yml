@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  # - name: raw
+    # database: main
+    # schema: "" 
+    tables:
+      - name: notifications_sent
+      - name: notification_events
+      - name: customer_feedback
+      - name: flights
+

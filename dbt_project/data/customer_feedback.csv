@@ -1,0 +1,31 @@
+customer_id,flight_id,issue,submitted_at
+90,DE1949,Didn't receive info,2025-07-03 16:00
+80,DE6355,Confusing message,2025-06-29 11:39
+97,DE4673,Customer service unresponsive,2025-07-20 06:46
+52,DE6753,Confusing message,2025-07-07 18:56
+81,DE8564,Confusing message,2025-07-18 19:03
+10,DE9317,Didn't receive info,2025-07-04 06:29
+26,DE3697,Customer service unresponsive,2025-07-02 22:23
+91,DE9751,Customer service unresponsive,2025-07-19 09:10
+12,DE3704,Received late,2025-08-01 22:20
+67,DE6139,Received late,2025-07-14 07:35
+78,DE7211,No refund provided,2025-07-03 19:08
+23,DE7065,Received late,2025-07-21 16:27
+56,DE1027,Didn't receive info,2025-07-10 22:46
+66,DE9666,Confusing message,2025-08-01 14:57
+1,DE8668,Customer service unresponsive,2025-06-30 10:03
+38,DE3705,Confusing message,2025-08-12 17:48
+9,DE2052,Didn't receive info,2025-07-10 17:32
+43,DE1821,Confusing message,2025-06-29 13:30
+96,DE6425,Customer service unresponsive,2025-07-25 01:04
+31,DE4501,Received late,2025-08-07 12:03
+20,DE2776,No refund provided,2025-07-24 06:41
+77,DE6143,Customer service unresponsive,2025-07-28 20:54
+64,DE9883,Customer service unresponsive,2025-08-12 12:56
+45,DE8260,Customer service unresponsive,2025-07-07 06:07
+59,DE3085,Customer service unresponsive,2025-07-19 15:56
+89,DE1090,Didn't receive info,2025-07-13 11:33
+44,DE6139,Customer service unresponsive,2025-07-26 12:52
+68,DE9817,Confusing message,2025-08-02 04:23
+53,DE3615,Didn't receive info,2025-07-11 09:02
+57,DE6279,Received late,2025-08-14 09:45
